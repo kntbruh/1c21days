@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f224b5f-49de-4931-b05b-411e7b4f218e">
+  <producedTypes>
+    <managerType typeId="a4540dbe-2ffd-4109-8825-824c0a559a14" valueTypeId="c694439d-ed7a-4615-9808-95e8414cd648"/>
+    <valueManagerType typeId="4d101df8-71ce-42d2-afd8-1d406e5a9fd9" valueTypeId="eb55abd5-395b-403d-a54e-ce58b66d5036"/>
+    <valueKeyType typeId="ba7cf3bc-9da1-4ded-89e2-c130ab30c831" valueTypeId="b5f3b59c-110c-4ffb-bf8a-0357c7db47b4"/>
+  </producedTypes>
+  <name>НаименованиеОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наименование организации</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>80</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

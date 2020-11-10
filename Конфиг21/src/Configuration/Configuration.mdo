@@ -24,7 +24,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.16</compatibilityMode>
+  <compatibilityMode>8.3.15</compatibilityMode>
   <languages uuid="5eacda0e-d8a7-4838-bdf3-e8c23ffc84cf">
     <name>Русский</name>
     <synonym>
@@ -33,5 +33,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <constants>Constant.НаименованиеОрганизации</constants>
   <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <enums>Enum.ТипыТоваров</enums>
 </mdclass:Configuration>
