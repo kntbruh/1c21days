@@ -44,6 +44,9 @@
   <documents>Document.УстановкаЦенНоменклатуры</documents>
   <documentJournals>DocumentJournal.ТорговыеДокументы</documentJournals>
   <enums>Enum.ТипыТоваров</enums>
+  <reports>Report.ОтчетПоКонтрагентам</reports>
+  <reports>Report.ПоставщикиНоменклатура</reports>
+  <reports>Report.ПродажиТоваровПоДокументам</reports>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
