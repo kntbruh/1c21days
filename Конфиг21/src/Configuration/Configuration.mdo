@@ -47,8 +47,12 @@
   <reports>Report.ОтчетПоКонтрагентам</reports>
   <reports>Report.ПоставщикиНоменклатура</reports>
   <reports>Report.ПродажиТоваровПоДокументам</reports>
+  <reports>Report.ОстаткиВзаиморасчетов</reports>
+  <reports>Report.ПродажиТоваров</reports>
+  <reports>Report.ПродажиПоДаннымТабличнойЧасти</reports>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
 </mdclass:Configuration>
