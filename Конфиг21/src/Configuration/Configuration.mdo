@@ -41,4 +41,5 @@
   <documents>Document.ПоступлениеТоваровИУслуг</documents>
   <documents>Document.РеализацияТоваровИУслуг</documents>
   <enums>Enum.ТипыТоваров</enums>
+  <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
 </mdclass:Configuration>
