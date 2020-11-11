@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f3b218b-5b6a-449b-aed5-1cb76ef79eda">
+  <producedTypes>
+    <objectType typeId="8c2f2dd1-8775-4139-ae7a-02024be4a225" valueTypeId="9d49417f-1569-4135-aa91-b003c3d77c38"/>
+    <refType typeId="802505be-d86a-480a-8a64-2ea3fb424060" valueTypeId="5d378645-0f79-4a05-a24e-c0991af7b7d4"/>
+    <selectionType typeId="908c50f2-ace4-4fd2-ad13-459051174700" valueTypeId="4654c405-7ade-46cd-bf90-c4e5993a8707"/>
+    <listType typeId="c559bf75-e90d-4f2f-bb3f-29f5bb1175ae" valueTypeId="12167cfe-61ee-4e16-ac15-a90db7064576"/>
+    <managerType typeId="fd5f6a8e-8254-41c9-8493-987eac49e7e5" valueTypeId="47163de0-a20e-4a63-9706-126b5ed5f86d"/>
+  </producedTypes>
+  <name>ПоступлениеТоваровИУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление товаров и услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоступлениеТоваровИУслуг.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="64862699-2702-443c-a6cb-962fb3fe17c0">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bf722e23-8ded-409d-a4e6-86adcc53bb6e">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="0a68740f-9e5a-4b9c-ac7d-fea49f510f56">
+    <producedTypes>
+      <objectType typeId="a2030197-23ce-4576-ae1e-ceb52143a0e1" valueTypeId="c40b0e21-2f27-4035-bafa-b5f6cf4c07f5"/>
+      <rowType typeId="cd85ae22-8308-4fcb-9e5f-b39bcb1a950c" valueTypeId="1dc6b1fd-00a7-468f-a544-8368d415cbef"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="2be3b710-5366-4392-8a19-1f1517007df6">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8e5d950d-4f22-458a-b997-5d7eac9a545e">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e6fec16d-bb81-4f0c-ac63-60e15b5d4651">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0879ce58-d993-4533-8d67-baa5f57292b9">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
