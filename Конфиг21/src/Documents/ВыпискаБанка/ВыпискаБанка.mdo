@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f011876-f3b4-4709-9930-40404df363b5">
+  <producedTypes>
+    <objectType typeId="079f7f50-d814-4259-8b50-5aefa5626c45" valueTypeId="7f35e869-427b-42d4-b3df-a5b7b45002ce"/>
+    <refType typeId="8eb33d36-22ba-4380-82a3-7333a2512b6b" valueTypeId="bc7b4c18-d932-489c-b376-471a5c7af771"/>
+    <selectionType typeId="c4a64e6c-a059-4634-b084-dbf2b4200439" valueTypeId="8ba419ec-79ad-4a7c-baae-c8cd51d4bba8"/>
+    <listType typeId="dd224cb9-dcd4-4215-b9d6-af227c6f35be" valueTypeId="239fce5a-3346-47b4-9e07-8e00b780dd08"/>
+    <managerType typeId="e8d9a441-4caa-4d5c-a862-1127a55fefa1" valueTypeId="c8d8652f-edc0-4b36-89df-71d370c60b1f"/>
+  </producedTypes>
+  <name>ВыпискаБанка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выписка банка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВыпискаБанка.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="5467ab38-9224-476b-933b-9d17a030503d">
+    <producedTypes>
+      <objectType typeId="aedd9518-48e5-439e-b631-caee2e037067" valueTypeId="2dc63811-c02c-4382-a32d-9feff265f516"/>
+      <rowType typeId="5edd8ead-5144-4735-bdaa-04ac4c624ee3" valueTypeId="cc3cc688-cbc5-4029-8b55-a2929b5e4cb3"/>
+    </producedTypes>
+    <name>ПриходДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приход денежных средств</value>
+    </synonym>
+    <attributes uuid="79a99a6b-0537-488b-b537-55d65fb58a60">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="87dbabb3-1100-4ab9-99d9-7f0d3dec5454">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b490cb6f-f4da-4a8d-8976-e6d3030d6e42">
+    <producedTypes>
+      <objectType typeId="0ee5daba-7526-4910-9796-ad2358b8b6b0" valueTypeId="d29e1014-1e6c-4406-9272-f00237486448"/>
+      <rowType typeId="aca9439e-d350-4440-9152-0e8ec6eb9d4b" valueTypeId="35ee412f-6d32-496f-a8fc-c509ee972a0d"/>
+    </producedTypes>
+    <name>РасходДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход денежных средств</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="60a434f8-476d-4a25-8f0c-fe91915f21cd">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9cde3690-bb60-43cd-b52f-e1a78612c74e">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
