@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e301dd50-9b7c-4320-a3f7-e0cde053c4c8">
+  <producedTypes>
+    <selectionType typeId="06e9d5f1-bb7e-4d97-9805-747136fa6f4a" valueTypeId="930a239f-bf7a-4468-bf92-5e57e5cc12a8"/>
+    <listType typeId="05e02c8b-f330-47c6-9a7c-5959a5e3dc2d" valueTypeId="f24ae553-43db-49d5-8210-5d461653a513"/>
+    <managerType typeId="634baa2d-c5fa-418e-bf68-bd03655bd642" valueTypeId="253f4375-3f0b-4d31-9de6-0ee39b2c5924"/>
+  </producedTypes>
+  <name>ТорговыеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговые документы</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ТорговыеДокументы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ЗаказКлиента</registeredDocuments>
+  <registeredDocuments>Document.РеализацияТоваровИУслуг</registeredDocuments>
+  <registeredDocuments>Document.ВыпискаБанка</registeredDocuments>
+  <registeredDocuments>Document.УстановкаЦенНоменклатуры</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеТоваровИУслуг</registeredDocuments>
+  <forms uuid="fc3b9200-536a-4d21-941f-6fdd50526eef">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>
