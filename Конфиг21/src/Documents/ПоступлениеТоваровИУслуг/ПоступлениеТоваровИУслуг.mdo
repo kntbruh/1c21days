@@ -26,6 +26,7 @@
   <defaultObjectForm>Document.ПоступлениеТоваровИУслуг.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
   <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
+  <registerRecords>AccumulationRegister.СебестоимостьТовара</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="64862699-2702-443c-a6cb-962fb3fe17c0">
