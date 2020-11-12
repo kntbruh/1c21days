@@ -28,4 +28,7 @@
   <content>Report.ГрафикПродажиПоКлиентам</content>
   <content>Report.ЭффективностьРаботыМенеджеров</content>
   <content>Report.КлассификацияКлиентов</content>
+  <content>Catalog.СтатусСделок</content>
+  <content>AccumulationRegister.ВоронкаПродаж</content>
+  <content>Report.ВоронкаПродаж</content>
 </mdclass:Subsystem>

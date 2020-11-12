@@ -34,12 +34,14 @@
   <subsystems>Subsystem.НормативноСправочнаяИнформация</subsystems>
   <subsystems>Subsystem.БухУчет</subsystems>
   <subsystems>Subsystem.Зарплата</subsystems>
+  <subsystems>Subsystem.БизнесПроцессы</subsystems>
   <constants>Constant.НаименованиеОрганизации</constants>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Сотрудник</catalogs>
+  <catalogs>Catalog.СтатусСделок</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ПоступлениеТоваровИУслуг</documents>
   <documents>Document.РеализацияТоваровИУслуг</documents>
@@ -70,6 +72,7 @@
   <reports>Report.ОтработкиВремя</reports>
   <reports>Report.ЭффективностьРаботыМенеджеров</reports>
   <reports>Report.КлассификацияКлиентов</reports>
+  <reports>Report.ВоронкаПродаж</reports>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикРаботы</informationRegisters>
@@ -79,8 +82,13 @@
   <accumulationRegisters>AccumulationRegister.СебестоимостьТовара</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДолгиПоЗаработнойПлате</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЭффективностьПродаж</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВоронкаПродаж</accumulationRegisters>
   <chartsOfAccounts>ChartOfAccounts.БухгалтерскийУчет</chartsOfAccounts>
   <accountingRegisters>AccountingRegister.РегистрБухУчет</accountingRegisters>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
   <calculationRegisters>CalculationRegister.ЗаработнаяПлата</calculationRegisters>
+  <businessProcesses>BusinessProcess.ПриемСотрудникаНаРаботу</businessProcesses>
+  <businessProcesses>BusinessProcess.НастойчиваяПродажа</businessProcesses>
+  <tasks>Task.ЗадачиПриемаСотрудника</tasks>
+  <tasks>Task.ЗадачаНастойчивыхПродаж</tasks>
 </mdclass:Configuration>

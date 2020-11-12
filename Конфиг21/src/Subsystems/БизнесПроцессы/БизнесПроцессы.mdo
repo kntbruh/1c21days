@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf64af26-afe3-4631-a81d-8dd0f3028e95">
+  <name>БизнесПроцессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес процессы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>BusinessProcess.ПриемСотрудникаНаРаботу</content>
+  <content>BusinessProcess.НастойчиваяПродажа</content>
+  <content>Task.ЗадачаНастойчивыхПродаж</content>
+  <content>Task.ЗадачиПриемаСотрудника</content>
+</mdclass:Subsystem>
