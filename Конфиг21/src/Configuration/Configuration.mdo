@@ -32,6 +32,7 @@
   <subsystems>Subsystem.Продажи</subsystems>
   <subsystems>Subsystem.Закупки</subsystems>
   <subsystems>Subsystem.НормативноСправочнаяИнформация</subsystems>
+  <subsystems>Subsystem.БухУчет</subsystems>
   <constants>Constant.НаименованиеОрганизации</constants>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
@@ -60,4 +61,6 @@
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СебестоимостьТовара</accumulationRegisters>
+  <chartsOfAccounts>ChartOfAccounts.БухгалтерскийУчет</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.РегистрБухУчет</accountingRegisters>
 </mdclass:Configuration>

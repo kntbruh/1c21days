@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1153302c-5087-4214-9f9c-5023557ef00e">
+  <producedTypes>
+    <selectionType typeId="c524a68a-df19-421e-8aa2-2b96ad221159" valueTypeId="714bf7cf-f601-4e27-bcf3-ecd8456480ed"/>
+    <listType typeId="0106de75-a609-4006-90d2-52bbc295af78" valueTypeId="eba5e5c5-bb46-4e68-99cd-ecb8e18e9432"/>
+    <managerType typeId="79926ac2-d2b5-46b3-960e-af5e69739ef0" valueTypeId="cdf8212a-438f-4827-9c6f-a4a97e592160"/>
+    <recordSetType typeId="01e3ac53-9601-41ff-8c2a-e5cfcbf11aa5" valueTypeId="ecec06f4-3c1b-4393-a578-524f2b4b2356"/>
+    <recordKeyType typeId="6ef5580d-f375-4de6-aafa-f4137a1122cb" valueTypeId="2b8d5fb5-aa7e-43bd-8340-aa6b9af29c51"/>
+    <recordType typeId="644368b7-4eb7-445d-862e-5ec1905c8881" valueTypeId="b5ee584e-538a-48e6-811a-ad4992f482a7"/>
+    <extDimensionsType typeId="0024bbcf-3994-4a31-b65d-9222edf97797" valueTypeId="d1b2fb27-0578-4f7c-bd8c-859f413f0a72"/>
+  </producedTypes>
+  <name>РегистрБухУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр бух учет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.БухгалтерскийУчет</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="72778321-4889-449c-ac45-ce60f0cda97a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>
