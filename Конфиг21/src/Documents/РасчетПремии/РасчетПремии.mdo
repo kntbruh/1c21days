@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58d665e2-0792-4bc2-8c0b-32156f6c16ec">
+  <producedTypes>
+    <objectType typeId="ee43260f-e668-4507-b820-7f4636a04d2b" valueTypeId="0f1024da-a271-4d49-8a8a-75e3c0e2d938"/>
+    <refType typeId="24bc6a8f-93ce-418b-83ef-9d90c1fe527f" valueTypeId="4a9144a0-24f0-4afc-acc2-3441797c9a5a"/>
+    <selectionType typeId="fa5111e2-812e-47c2-bdef-9f802bf736dc" valueTypeId="67947126-5ef2-4350-8f54-d2afcf997e57"/>
+    <listType typeId="a907c039-1102-41d6-882c-ef64faf00d3c" valueTypeId="6b576f98-a2ad-487d-84ae-3eca8743777f"/>
+    <managerType typeId="6ab4d3d8-6a75-43da-8de1-8b128989e2cf" valueTypeId="5a092a61-8191-42e8-bbdc-0d5f990d614c"/>
+  </producedTypes>
+  <name>РасчетПремии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет премии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РасчетПремии.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>CalculationRegister.ЗаработнаяПлата</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="dd58f0fc-b1d8-4c98-bf9b-a1aca418120e">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудник</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36b102bf-d1ea-4cb0-ba3f-ac61414741a4">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

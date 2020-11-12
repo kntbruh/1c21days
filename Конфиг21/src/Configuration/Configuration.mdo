@@ -50,6 +50,7 @@
   <documents>Document.УтверждениеГрафикРабот</documents>
   <documents>Document.НачисленияОклада</documents>
   <documents>Document.НевыходСотрудника</documents>
+  <documents>Document.РасчетПремии</documents>
   <documentJournals>DocumentJournal.ТорговыеДокументы</documentJournals>
   <enums>Enum.ТипыТоваров</enums>
   <reports>Report.ОтчетПоКонтрагентам</reports>
