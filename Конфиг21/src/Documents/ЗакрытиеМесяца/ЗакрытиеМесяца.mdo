@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25cec946-4d9f-4bbc-8632-375f4f4acd14">
+  <producedTypes>
+    <objectType typeId="97cfc70f-cbcf-4ad5-b5c2-d37342a70902" valueTypeId="62c5b4e7-564b-4afe-9cb2-02fdbd8b545a"/>
+    <refType typeId="4c639a91-5650-4c79-9bdf-5d89689ae5d1" valueTypeId="a316c376-72ee-4d1a-add0-76fd8657b665"/>
+    <selectionType typeId="0e2eb53f-e65f-4395-aa4b-5177f4168d66" valueTypeId="78119c86-c2db-45b5-bae3-dd86e44ba7c5"/>
+    <listType typeId="5aebda43-f010-40cc-9f5f-18adc639195a" valueTypeId="38ab932b-2faf-4493-9684-242248ccb2a1"/>
+    <managerType typeId="9b5120ea-a944-42d5-a226-02d98e545d94" valueTypeId="30f0e4c0-ac5e-460a-b2a5-7b9fb8bd8045"/>
+  </producedTypes>
+  <name>ЗакрытиеМесяца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие месяца</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗакрытиеМесяца.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccountingRegister.РегистрБухУчет</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
