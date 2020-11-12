@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d5652aa-4169-4539-8a87-f4635cbda1b0">
+  <producedTypes>
+    <selectionType typeId="73119b7c-16ea-451c-a499-ca62c4e6106a" valueTypeId="d1760fb6-b88a-43f9-987d-f0808f42c5de"/>
+    <listType typeId="c464f6ab-9c76-47ea-ad5b-3541c0d7b0da" valueTypeId="118c9ef6-0e41-42e5-9cb7-722dd891b340"/>
+    <managerType typeId="279861d4-3db5-48d2-a34a-23cd68dfa8c3" valueTypeId="0f298fb7-83a2-4af0-8f84-3707a979c8d3"/>
+    <recordSetType typeId="430ae008-cfcf-43e1-b3a3-5804985a7801" valueTypeId="62e6bc0e-cccc-4e86-b847-acf7db5f5a33"/>
+    <recordKeyType typeId="043e1647-6eeb-4297-af38-d674c11dcdc8" valueTypeId="ff70bac6-b79d-4ac1-909c-d6e53e0175ee"/>
+    <recordType typeId="b52354d5-4f69-46d8-8f5f-ca4341a8d4f3" valueTypeId="d9c11ddb-5d8c-4bf6-8885-559795299a7e"/>
+  </producedTypes>
+  <name>ЭффективностьПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эффективность продаж</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="66fedf3e-b0b6-43b2-b4d5-fa306533b588">
+    <name>Выручка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выручка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="d8a017fb-78b1-44c6-abec-3df46b5e6760">
+    <name>Прибыль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прибыль</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="80b28d30-5c06-427e-b2f2-540a6f3cc2a0">
+    <name>КоличествоЗаказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество заказов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="73443a03-fc52-4b2b-a6e3-38d51e926f1b">
+    <name>КоличествоОтгрузов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество отгрузов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="151d3db6-75de-49a0-a8f3-17ce40bb4036">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудник</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

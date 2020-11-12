@@ -68,6 +68,8 @@
   <reports>Report.Баланс</reports>
   <reports>Report.НачисленияСотрудников</reports>
   <reports>Report.ОтработкиВремя</reports>
+  <reports>Report.ЭффективностьРаботыМенеджеров</reports>
+  <reports>Report.КлассификацияКлиентов</reports>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикРаботы</informationRegisters>
@@ -76,6 +78,7 @@
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СебестоимостьТовара</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДолгиПоЗаработнойПлате</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЭффективностьПродаж</accumulationRegisters>
   <chartsOfAccounts>ChartOfAccounts.БухгалтерскийУчет</chartsOfAccounts>
   <accountingRegisters>AccountingRegister.РегистрБухУчет</accountingRegisters>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
