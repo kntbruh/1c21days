@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ДолгиПоЗаработнойПлате</registerRecords>
   <registerRecords>CalculationRegister.ЗаработнаяПлата</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
